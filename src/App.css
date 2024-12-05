@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.block {
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.block img {
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.block:hover {
+  -webkit-box-shadow: 4px 4px 18px 0px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 4px 4px 18px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 4px 4px 18px 0px rgba(0, 0, 0, 0.61);
+  transform: scale(1.05);
+}
+
+header {
+  background-color: #bfdcdc;
+  padding: 3px;
+}
+
+.nav-item {
+  color: black;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  gap: 500px;
+  padding: 20px;
+}
+
+.logo h3 {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.logo h3:hover {
+  background-color: rgb(40, 40, 204);
+}
+
+.title h4 {
+  color: #9f9a9a;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.home_left {
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_container {
+  display: flex;
+  align-items: center;
+  gap: 400px;
+}
+
+.home_left h1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  width: 500px;
+  font-size: 50px;
+  line-height: 70px;
+  color: rgb(75, 75, 128);
+}
+
+.home_left p {
+  width: 500px;
+  font-size: 17px;
+  line-height: 30px;
+  color: rgb(148, 151, 154);
+}
+
+.home_left button {
+  margin-top: 30px;
+  background-color: rgb(42, 42, 163);
+  border: none;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.home_right img {
+  width: 400px;
+  padding-top: 100px;
+}
