@@ -61,7 +61,8 @@ header {
 }
 
 .nav-item {
-  color: black;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 .header_container {
@@ -136,4 +137,108 @@ header {
 .home_right img {
   width: 400px;
   padding-top: 100px;
+}
+
+.form_inputs {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.form_inputs select {
+  width: 200%;
+  padding: 10px;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.form_inputs input {
+  width: 130%;
+  padding: 10px;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.form {
+  background-color: #98a7a7;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.select-box h4 {
+  font-size: 15px;
+  color: rgb(241, 236, 236);
+}
+
+.form_input h3 {
+  font-size: 20px;
+  color: rgb(241, 236, 236);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#search {
+  margin-top: 100px;
+  padding: 10px;
+  width: 45%;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+#reset {
+  margin-top: 100px;
+  padding: 10px;
+  width: 50%;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(159, 11, 204);
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.details img {
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.details_title h2 {
+  font-size: 30px;
+  color: #344a84;
+}
+
+.details_title h3 {
+  font-size: 20px;
+  color: #98a7a7;
+}
+
+.details_title h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #a3d1d1;
+}
+
+.details_title p {
+  width: 500px;
+  color: rgb(46, 45, 45);
+  font-size: 16px;
 }
