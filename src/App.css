@@ -135,8 +135,10 @@ header {
 }
 
 .home_right img {
-  width: 400px;
-  padding-top: 100px;
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  margin-top: 100px;
 }
 
 .form_inputs {
